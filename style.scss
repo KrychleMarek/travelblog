@@ -172,7 +172,7 @@ footer{
     cursor: pointer;
     }
 
-    div{
+    .post-info{
     color: $secondarycolor;
     
     margin-top: -10px;
@@ -202,7 +202,7 @@ footer{
     }
     .post-tags{ 
         display: flex;
-        height: 150px;
+        height: min-content;
         color: $tagcolor;
         *{
             margin-left: auto;

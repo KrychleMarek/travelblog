@@ -167,7 +167,7 @@ footer {
   border-top-right-radius: 25px;
   cursor: pointer;
 }
-.blog-post div {
+.blog-post .post-info {
   color: whitesmoke;
   margin-top: -10px;
   z-index: 1;
@@ -176,37 +176,37 @@ footer {
   min-height: 150px;
   max-height: 150px;
 }
-.blog-post div h2, .blog-post div h3 {
+.blog-post .post-info h2, .blog-post .post-info h3 {
   margin: 5px;
   height: min-content;
   overflow-wrap: break-word;
   white-space: normal;
 }
-.blog-post div h2 {
+.blog-post .post-info h2 {
   cursor: pointer;
   max-width: 100%;
   font-size: 1.5vw;
 }
 @media (max-width: 800px) {
-  .blog-post div h2 {
+  .blog-post .post-info h2 {
     font-size: 1.2rem;
   }
 }
-.blog-post div h3 {
+.blog-post .post-info h3 {
   max-width: 33%;
   font-size: 1vw;
 }
 @media (max-width: 800px) {
-  .blog-post div h3 {
+  .blog-post .post-info h3 {
     font-size: 1.2rem;
   }
 }
-.blog-post div .post-tags {
+.blog-post .post-info .post-tags {
   display: flex;
-  height: 150px;
+  height: min-content;
   color: darkgray;
 }
-.blog-post div .post-tags * {
+.blog-post .post-info .post-tags * {
   margin-left: auto;
   margin-right: auto;
 }

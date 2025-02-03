@@ -39,7 +39,7 @@ class ArticleList{
             echo <<<eof
                 <div class="blog-post">
                     <img src="$img" alt="blog-img" onclick="window.location='./article.php?id=$id';">
-                    <div>
+                    <div class="post-info">
                         <h2 onclick="window.location='./article.php?id=$id';">$title</h2>
                         
                         <div class="post-tags">

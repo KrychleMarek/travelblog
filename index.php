@@ -12,12 +12,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TravelBlog</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
      
-    <div class="top-bar"><header>TravelBlog</header> <nav><a href="index.php">Mainpage</a></nav></div>
+    <div class="top-bar"><header>TravelBlog</header> <nav><a class="mainpage-link" href="index.php">Mainpage</a> <a class="createpost-link" href="#">Create Post</a></nav></div>
     
     <div class="welcome">
         <h1>Vítejte na TravelBlog! Jednička v cestování!</h1>
@@ -30,7 +30,7 @@
             <div class="blog-list">
                  <?php 
                     //renders list of articles
-                    $articleList->render();
+                   $articleList->render();
                 ?> 
                 
 
